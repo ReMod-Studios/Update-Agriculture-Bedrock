@@ -1,0 +1,51 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "updagri:watering_pail",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:cooldown": {
+				"category": "updagri",
+				"duration": 1
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:foil": false,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "water"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "watering_pail"
+			},
+			"minecraft:render_offsets": "blaze_rod",
+			"minecraft:creative_category": {
+				"parent": "items"
+			},
+			"minecraft:display_name": {
+				"value": "Watering Pail"
+			}
+		},
+		"events": {
+			"water": {
+				"sequence": [
+					{
+						"swing": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"function funcItem/watering_pail"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

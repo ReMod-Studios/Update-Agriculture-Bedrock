@@ -1,0 +1,36 @@
+{
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/watering_pail.json": {
+			"identifiers": [
+				"updagri:watering_pail"
+			],
+			"custom_commands": []
+		}
+	},
+	"function": {
+		"BP/functions/funcItem/watering_pail.mcfunction": {
+			"custom_commands": []
+		},
+		"710e06f7_0c54_426b_897a_7f090299bac2": {}
+	}
+}
