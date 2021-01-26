@@ -7,7 +7,7 @@
 - Clone the Repository.
 - Unzip the the zip that comes out when cloned.
 - ZIP both the RES and BEV and change the extensions from ".zip" to ".mcpack"
-- Zip the MCPacks into a zip and change the extension from ".zip" to ".mcworld"
+- Zip the MCPacks into a zip and change the extension from ".zip" to ".mcaddon"
 
 ## Install Instructions:
 - Open the file with Minecraft Bedrock
