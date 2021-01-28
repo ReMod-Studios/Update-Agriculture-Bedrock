@@ -1,8 +1,5 @@
 # Update Agriculture Add-on
 
-## License
-- This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
-
 ## Building Instructions:
 - Clone the Repository.
 - Unzip the the zip that comes out when cloned.
